@@ -2,7 +2,7 @@ package Colletcions;
 
 import java.util.Arrays;
 
-public class HomeWork {
+public class HomeWork1 {
 
     public int[] twoSum(int[] nums, int target){
         int[] result;
@@ -20,7 +20,7 @@ public class HomeWork {
 
 
     public static void main(String[] args) {
-        HomeWork HW = new HomeWork();
+        HomeWork1 HW = new HomeWork1();
         HW.twoSum(new int[]{1, 2, 3, 4, 5, 6}, 6);
     }
 }
